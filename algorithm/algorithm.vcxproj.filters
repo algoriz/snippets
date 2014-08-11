@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="test_main.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test_cases.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="disjoint_set.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="linear_select.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test_cases.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="disjoint_set.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="linear_select.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="slist.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{e1d59e94-2047-4ecb-a073-9de1d77b91f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{dc0f3eb2-9f56-40e8-b52d-f0abbf512850}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

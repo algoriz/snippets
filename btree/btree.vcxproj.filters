@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="btree_test.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="btree_node.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="btree.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="btree_helper.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{0e60f0e8-cf82-4c41-840d-a767ef97bf51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{9d671656-be77-4930-889e-7b6bc659ba23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="btree_test.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
