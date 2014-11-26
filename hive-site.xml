@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+<property>
+  <name>hive.aux.jars.path</name>
+  <value>file:///opt/hive/lib/hive-hbase-handler-0.14.0-SNAPSHOT.jar,file:///opt/hive/lib/zookeeper-3.4.5.jar,file:///opt/hive/lib/hbase-client-0.96.1.1-hadoop2.jar,file:///opt/hive/lib/hbase-common-0.96.1.1-hadoop2.jar,file:///opt/hive/lib/hbase-hadoop2-compat-0.96.1.1-hadoop2.jar,file:///opt/hive/lib/hbase-hadoop-compat-0.96.1.1-hadoop2.jar,file:///opt/hive/lib/hbase-it-0.96.1.1-hadoop2.jar,file:///opt/hive/lib/hbase-prefix-tree-0.96.1.1-hadoop2.jar,file:///opt/hive/lib/hbase-protocol-0.96.1.1-hadoop2.jar,file:///opt/hive/lib/hbase-server-0.96.1.1-hadoop2.jar,file:///opt/hive/lib/hbase-shell-0.96.1.1-hadoop2.jar,file:///opt/hive/lib/hbase-thrift-0.96.1.1-hadoop2.jar,file:///opt/hive/lib/htrace-core-2.01.jar</value>
+  <description>
+  </description>
+</property>
+
+<property>
+  <name>hbase.zookeeper.quorum</name>
+  <value>slave2.hadoop.lab</value>
+  <description>hbase zookeeper quorums, intentionally put here
+  </description>
+</property>
+
+<property>
+  <name>hive.metastore.warehouse.dir</name>
+  <value>/user/hive/warehouse-0.14</value>
+  <description>location of default database for the warehouse</description>
+</property>
+
+<property>
+  <name>hive.hbase.wal.enabled</name>
+  <value>false</value>
+  <description>Whether writes to HBase should be forced to the write-ahead log.  Disabling this improves HBase write performance at the risk of lost writes in case of a crash.</description>
+</property>
+
+<property>
+  <name>hive.querylog.location</name>
+  <value>/opt/hive/logs</value>
+  <description>
+    Location of Hive run time structured log file
+  </description>
+</property>
+
+</configuration>
